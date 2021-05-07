@@ -2,8 +2,7 @@
 
 namespace Messages
 {
-
-
+    // 定义 message interface，也可以直接定义为 class
     public interface ISubmitOrder
     {
         string OrderNumber { get; set; }
